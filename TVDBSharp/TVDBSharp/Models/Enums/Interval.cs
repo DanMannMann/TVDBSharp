@@ -2,6 +2,7 @@
 
 namespace TVDBSharp.Models.Enums
 {
+     [Serializable]
     public enum Interval
     {
         Day,

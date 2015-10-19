@@ -1,8 +1,10 @@
-﻿namespace TVDBSharp.Models.Enums
+﻿using System;
+namespace TVDBSharp.Models.Enums
 {
     /// <summary>
     ///     Describes the current status of a show.
     /// </summary>
+     [Serializable]
     public enum Status
     {
         /// <summary>

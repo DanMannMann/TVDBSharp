@@ -1,5 +1,7 @@
-﻿namespace TVDBSharp.Models.Enums
+﻿using System;
+namespace TVDBSharp.Models.Enums
 {
+     [Serializable]
     public enum Frequency
     {
         Monday,

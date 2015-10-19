@@ -1,8 +1,10 @@
-﻿namespace TVDBSharp.Models.Enums
+﻿using System;
+namespace TVDBSharp.Models.Enums
 {
     /// <summary>
     ///     Different content ratings. View <c>http://en.wikipedia.org/wiki/TV_Parental_Guidelines</c> for more info.
     /// </summary>
+     [Serializable]
     public enum ContentRating
     {
         /// <summary>

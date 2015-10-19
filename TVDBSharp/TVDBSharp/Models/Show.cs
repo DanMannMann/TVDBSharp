@@ -7,6 +7,7 @@ namespace TVDBSharp.Models
     /// <summary>
     ///     Entity describing a show.
     /// </summary>
+    [Serializable]
     public class Show
     {
         /// <summary>
